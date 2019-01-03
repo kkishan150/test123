@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="myntraRun" time="129" tests="0" failures="0" errors="1">
+   <testsuite name="myntraRun" tests="0" failures="0" errors="1" time="129" timestamp="2019-01-03 17:30:32" hostname="E004817 - HW0502.cignitiglobal.com" id="Test Suites/myntraRun">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\E004817\\Katalon Studio\\myntra\\Reports\\myntraRun\\20190103_173031"/>
+         <property name="logFiles" value="C:\\Users\\E004817\\Katalon Studio\\myntra\\Reports\\myntraRun\\20190103_173031\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="E004817 - HW0502.cignitiglobal.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="172.33.18.14"/>
+         <property name="sessionId" value="4f87a60974f42e97f3f4a40d3e0017a8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/myntraL" classname="Test Cases/myntraL" status="ERROR">
+         <error type="ERROR" message="Test Cases/myntraL FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findElements() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/BagElement/bag']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject), findWebElements(com.kms.katalon.core.testobject.TestObject, int), findWebElement(com.kms.katalon.core.testobject.TestObject, int)
+	at login.invokeMethod(login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at myntraL.run(myntraL:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546516831246.run(TempTestSuite1546516831246.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findElements() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/BagElement/bag']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject), findWebElements(com.kms.katalon.core.testobject.TestObject, int), findWebElement(com.kms.katalon.core.testobject.TestObject, int)
+	at login.coutBagItem(login.groovy:193)
+	at login.invokeMethod(login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1546495514552.run(Script1546495514552.groovy:22)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-01-03 17:30:32 - [TEST_CASE][ERROR] - Test Cases/myntraL: Test Cases/myntraL FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findElements() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/BagElement/bag']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject), findWebElements(com.kms.katalon.core.testobject.TestObject, int), findWebElement(com.kms.katalon.core.testobject.TestObject, int)
+	at login.invokeMethod(login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at myntraL.run(myntraL:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546516831246.run(TempTestSuite1546516831246.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findElements() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/BagElement/bag']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject), findWebElements(com.kms.katalon.core.testobject.TestObject, int), findWebElement(com.kms.katalon.core.testobject.TestObject, int)
+	at login.coutBagItem(login.groovy:193)
+	at login.invokeMethod(login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1546495514552.run(Script1546495514552.groovy:22)
+	... 13 more
+
+
+2019-01-03 17:30:33 - [TEST_STEP][PASSED] - login.loginM(url, user, password): login.loginM is PASSED
+
+2019-01-03 17:30:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-03 17:30:33 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-03 17:31:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.myntra.com/'
+
+2019-01-03 17:31:02 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-03 17:31:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-03 17:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/login/clickOnLogo' is clicked on
+
+2019-01-03 17:31:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-03 17:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/login/clickLogin' is clicked on
+
+2019-01-03 17:31:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-03 17:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/login/clickGoogle' is clicked on
+
+2019-01-03 17:31:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-03 17:31:17 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-01-03 17:31:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-03 17:31:21 - [MESSAGE][PASSED] - Keys 'kkishan150@gmail.com' sent to object: 'Object Repository/login/clickEmail'
+
+2019-01-03 17:31:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-03 17:31:24 - [MESSAGE][PASSED] - Object: 'Object Repository/login/clickNext' is clicked on
+
+2019-01-03 17:31:24 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-01-03 17:31:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-03 17:31:28 - [MESSAGE][PASSED] - Keys 'kkishan150@' sent to object: 'Object Repository/login/clickEmail'
+
+2019-01-03 17:31:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-03 17:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/login/clickNext' is clicked on
+
+2019-01-03 17:31:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-03 17:31:37 - [MESSAGE][PASSED] - login.loginM is PASSED
+
+2019-01-03 17:31:37 - [TEST_STEP][PASSED] - login.casualShirt(casual): login.casualShirt is PASSED
+
+2019-01-03 17:31:41 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-03 17:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CasualShirt/clickMan' is hovered
+
+2019-01-03 17:31:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-03 17:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CasualShirt/clickCasual' is clicked on
+
+2019-01-03 17:31:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-03 17:31:52 - [MESSAGE][PASSED] - Keys 'HIGHLANDER Men Navy & Red Slim Fit Checked Casual Shirt' sent to object: 'Object Repository/CasualShirt/clickSearch'
+
+2019-01-03 17:31:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CasualShirt/searchIcon' is clicked on
+
+2019-01-03 17:31:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-03 17:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CasualShirt/over1stItem' is hovered
+
+2019-01-03 17:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CasualShirt/addBag' is clicked on
+
+2019-01-03 17:32:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-03 17:32:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CasualShirt/selectSize' is clicked on
+
+2019-01-03 17:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CasualShirt/gotoBag' is clicked on
+
+2019-01-03 17:32:11 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-03 17:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/goToHome' is clicked on
+
+2019-01-03 17:32:15 - [MESSAGE][PASSED] - login.casualShirt is PASSED
+
+2019-01-03 17:32:15 - [TEST_STEP][PASSED] - login.formalShirt(formal): login.formalShirt is PASSED
+
+2019-01-03 17:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CasualShirt/clickMan' is hovered
+
+2019-01-03 17:32:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-03 17:32:21 - [MESSAGE][PASSED] - Object: 'Object Repository/formal/selectFormal' is clicked on
+
+2019-01-03 17:32:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-03 17:32:24 - [MESSAGE][PASSED] - Keys 'INVICTUS Men Red & Black Checked Slim Fit Formal Shirt' sent to object: 'Object Repository/CasualShirt/clickSearch'
+
+2019-01-03 17:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/CasualShirt/searchIcon' is clicked on
+
+2019-01-03 17:32:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-03 17:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CasualShirt/over1stItem' is hovered
+
+2019-01-03 17:32:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CasualShirt/addBag' is clicked on
+
+2019-01-03 17:32:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-03 17:32:33 - [MESSAGE][PASSED] - Object: 'Object Repository/CasualShirt/selectSize' is clicked on
+
+2019-01-03 17:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CasualShirt/gotoBag' is clicked on
+
+2019-01-03 17:32:41 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-03 17:32:41 - [MESSAGE][PASSED] - login.formalShirt is PASSED
+
+2019-01-03 17:32:41 - [TEST_STEP][ERROR] - login.coutBagItem(): login.coutBagItem() FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findElements() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/BagElement/bag']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject), findWebElements(com.kms.katalon.core.testobject.TestObject, int), findWebElement(com.kms.katalon.core.testobject.TestObject, int)
+	at login.invokeMethod(login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at myntraL.run(myntraL:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546516831246.run(TempTestSuite1546516831246.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findElements() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/BagElement/bag']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject), findWebElements(com.kms.katalon.core.testobject.TestObject, int), findWebElement(com.kms.katalon.core.testobject.TestObject, int)
+	at login.coutBagItem(login.groovy:193)
+	at login.invokeMethod(login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1546495514552.run(Script1546495514552.groovy:22)
+	... 13 more
+
+
+2019-01-03 17:32:41 - [MESSAGE][ERROR] - groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findElements() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/BagElement/bag']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject), findWebElements(com.kms.katalon.core.testobject.TestObject, int), findWebElement(com.kms.katalon.core.testobject.TestObject, int)
+
+2019-01-03 17:32:41 - [MESSAGE][ERROR] - login.coutBagItem() FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findElements() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/BagElement/bag']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject), findWebElements(com.kms.katalon.core.testobject.TestObject, int), findWebElement(com.kms.katalon.core.testobject.TestObject, int)
+	at login.invokeMethod(login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at myntraL.run(myntraL:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546516831246.run(TempTestSuite1546516831246.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findElements() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/BagElement/bag']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject), findWebElements(com.kms.katalon.core.testobject.TestObject, int), findWebElement(com.kms.katalon.core.testobject.TestObject, int)
+	at login.coutBagItem(login.groovy:193)
+	at login.invokeMethod(login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1546495514552.run(Script1546495514552.groovy:22)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-01-03 17:30:32 - [TEST_CASE][ERROR] - Test Cases/myntraL: Test Cases/myntraL FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findElements() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/BagElement/bag']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject), findWebElements(com.kms.katalon.core.testobject.TestObject, int), findWebElement(com.kms.katalon.core.testobject.TestObject, int)
+	at login.invokeMethod(login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at myntraL.run(myntraL:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546516831246.run(TempTestSuite1546516831246.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findElements() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/BagElement/bag']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject), findWebElements(com.kms.katalon.core.testobject.TestObject, int), findWebElement(com.kms.katalon.core.testobject.TestObject, int)
+	at login.coutBagItem(login.groovy:193)
+	at login.invokeMethod(login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1546495514552.run(Script1546495514552.groovy:22)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-03 17:30:32 - [TEST_SUITE][ERROR] - myntraRun: Test Cases/myntraL FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findElements() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/BagElement/bag']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject), findWebElements(com.kms.katalon.core.testobject.TestObject, int), findWebElement(com.kms.katalon.core.testobject.TestObject, int)
+	at login.invokeMethod(login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at myntraL.run(myntraL:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546516831246.run(TempTestSuite1546516831246.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findElements() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/BagElement/bag']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject), findWebElements(com.kms.katalon.core.testobject.TestObject, int), findWebElement(com.kms.katalon.core.testobject.TestObject, int)
+	at login.coutBagItem(login.groovy:193)
+	at login.invokeMethod(login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1546495514552.run(Script1546495514552.groovy:22)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-01-03 17:30:32 - [TEST_SUITE][ERROR] - myntraRun: Test Cases/myntraL FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findElements() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/BagElement/bag']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject), findWebElements(com.kms.katalon.core.testobject.TestObject, int), findWebElement(com.kms.katalon.core.testobject.TestObject, int)
+	at login.invokeMethod(login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at myntraL.run(myntraL:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546516831246.run(TempTestSuite1546516831246.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.findElements() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/BagElement/bag']
+Possible solutions: findWebElement(com.kms.katalon.core.testobject.TestObject), findWebElements(com.kms.katalon.core.testobject.TestObject, int), findWebElement(com.kms.katalon.core.testobject.TestObject, int)
+	at login.coutBagItem(login.groovy:193)
+	at login.invokeMethod(login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1546495514552.run(Script1546495514552.groovy:22)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

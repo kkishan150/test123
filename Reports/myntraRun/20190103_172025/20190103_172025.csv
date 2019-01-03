@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+myntraRun,Chrome 71.0.3578.98,,2019-01-03 17:20:27,2019-01-03 17:21:46,1m - 18.607s,FAILED
+,,,,,,
+Test Cases/myntraL,Chrome 71.0.3578.98,,2019-01-03 17:20:27,2019-01-03 17:21:45,1m - 17.562s,FAILED
+"login.loginM(url, user, password)",Chrome 71.0.3578.98,,2019-01-03 17:20:27,2019-01-03 17:21:39,1m - 11.178s,PASSED
+login.casualShirt(casual),Chrome 71.0.3578.98,,2019-01-03 17:21:39,2019-01-03 17:21:45,6.069s,FAILED

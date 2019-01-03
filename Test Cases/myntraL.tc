@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>myntraL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a382e413-6617-4955-921e-b817d8c2a89c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b9b196e0-6936-4b17-be2b-25365547c9de</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b3666e40-dc98-4db8-aea1-6e4b753f6658</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>35ef3f6e-e2ee-4a59-be3d-cfea38b1a959</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>741e4930-d406-4555-89ab-6a89e1ea6eda</id>
+      <masked>false</masked>
+      <name>casual</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0a9d6605-50f9-452a-aad1-510d70e8c783</id>
+      <masked>false</masked>
+      <name>formal</name>
+   </variable>
+</TestCaseEntity>

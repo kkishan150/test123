@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>myntraRun</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>cb40af6c-8896-4dbc-94cc-b0395454628e</testSuiteGuid>
+   <testCaseLink>
+      <guid>8a4b1c9e-614f-461d-874f-642a7325080e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/myntraL</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4b1dc583-39a7-4a13-9df3-f8c29409a6a9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/loginData</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>abca1b3b-2406-41f1-b884-e2a203e57716</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/searchShirt</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4b1dc583-39a7-4a13-9df3-f8c29409a6a9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>b9b196e0-6936-4b17-be2b-25365547c9de</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4b1dc583-39a7-4a13-9df3-f8c29409a6a9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>user</value>
+         <variableId>b3666e40-dc98-4db8-aea1-6e4b753f6658</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4b1dc583-39a7-4a13-9df3-f8c29409a6a9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>35ef3f6e-e2ee-4a59-be3d-cfea38b1a959</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>abca1b3b-2406-41f1-b884-e2a203e57716</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>casual</value>
+         <variableId>741e4930-d406-4555-89ab-6a89e1ea6eda</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>abca1b3b-2406-41f1-b884-e2a203e57716</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>formal</value>
+         <variableId>0a9d6605-50f9-452a-aad1-510d70e8c783</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
